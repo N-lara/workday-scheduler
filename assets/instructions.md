@@ -21,7 +21,7 @@ GIVEN I am using a daily planner to create a schedule
 WHEN I open the planner
 THEN the current day is displayed at the top of the calendar
 WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
+THEN I am presented with timeblocks for standard business hours of 9am-5pm
 WHEN I view the timeblocks for that day
 THEN each timeblock is color coded to indicate whether it is in the past, present, or future
 WHEN I click into a timeblock
@@ -35,7 +35,7 @@ THEN the saved events persist
 The following animation demonstrates the application functionality:
 
 <!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+![A user clicks on slots on the color-coded calendar and edits the events.](./05-third-party-apis-homework-demo.gif)
 
 ## Grading Requirements
 
