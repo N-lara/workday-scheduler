@@ -54,9 +54,10 @@ $(function () {
     schedule.children('#hour-'+i).children('textarea').text(savedEvent);
   }
 
-  //displays date on top of page
+  //displays date and time on top of page
   $('#currentDay').text('today is: '+ today.format('MMM DD, YYYY'));
-
+  $('#time').text('current time: '+ today.format('HH:MM'));
+  
   //sets today to the saved day for refrence in future to reset on new days line 45
   localStorage.setItem('Day', currentDay);
 });
