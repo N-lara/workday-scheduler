@@ -56,7 +56,7 @@ $(function () {
 
   //displays date and time on top of page
   $('#currentDay').text('today is: '+ today.format('MMM DD, YYYY'));
-  $('#time').text('current time: '+ today.format('HH:MM'));
+  $('#time').text('current time: '+ today.format('hh:mm a'));
   
   //sets today to the saved day for refrence in future to reset on new days line 45
   localStorage.setItem('Day', currentDay);
